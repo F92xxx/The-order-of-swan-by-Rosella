@@ -1,0 +1,81 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6f2; /* Light pink background color */
+    background-image: url(https://i.pinimg.com/564x/63/59/9f/63599f12c9ebd632b91274cdcb6e6fe3.jpg);
+    background-size: cover;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.image-container {
+    text-align: center; /* Center the image container */
+}
+
+.centered-image {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make the image oval */
+    border: 5px solid #f8bbd0; /* Soft coquette pink border */
+    opacity: 0.9; /* Slight transparency */
+}
+
+h1 {
+    text-align: center; /* Center the title */
+}
+
+
+
+.title {
+    font-size: 2.5em;
+    color: #ff66b2;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #fff;
+}
+
+.flowchart {
+    display: flex;
+    align-items: center;
+}
+
+.node {
+    background-color: #ffccff;
+    color: #333;
+    padding: 15px 30px;
+    margin: 0 15px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.node:hover {
+    transform: scale(1.1);
+    background-color: #ff99cc;
+}
+
+.node::before {
+    content: '';
+    width: 20px;
+    height: 2px;
+    background-color: #333;
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+}
+
+.node:first-child::before {
+    display: none;
+}
+
+.start {
+    font-size: 1.2em; /* Make the start node larger */
+    padding: 20px 40px;
+}

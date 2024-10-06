@@ -1,0 +1,46 @@
+body {
+    font-family: 'Noto Sans Myanmar', cursive, sans-serif;
+    background-color: #ffe6f2; /* Light pink background */
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #ff66b2;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #fff;
+}
+
+.quotes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.quote-card {
+    background-color: rgba(255, 204, 255, 0.8); /* Light pink background for each quote */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    width: 250px; /* Set width of each quote card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+    transition: transform 0.3s ease; /* Smooth transform effect */
+}
+.quote-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.quote-image {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.quote-text {
+    font-size: 1.1em; /* Adjust font size for quotes */
+    color: #333; /* Darker text color for readability */
+    text-align: center; /* Center align text */
+}

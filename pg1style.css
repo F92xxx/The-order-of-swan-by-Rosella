@@ -1,0 +1,149 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe6f2; /* Light pink background */
+    margin: 0;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Noto Sans Myanmar', sans-serif; /* Apply Burmese font */
+}
+
+
+.title {
+    font-size: 2.5em;
+    color: #ff66b2;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.diagram {
+    width: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: white;
+    margin: 10px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.heart {
+    background-color: #ff66b2;
+    border-radius: 75px; /* Oval shape */
+}
+
+.sakura {
+    background-color: #ff99cc;
+    border-radius: 75px; /* Oval shape */
+}
+
+.oval {
+    background-color: #ffccff;
+    border-radius: 75px; /* Oval shape */
+}
+
+.star {
+    background-color: #ff3399;
+    border-radius: 75px; /* Oval shape */
+}
+
+.circle {
+    background-color: #ff66b2;
+    border-radius: 75px; /* Oval shape */
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-item {
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+}
+
+.image-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffe6f2; /* Light pink background */
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #ff66b2;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.diagram {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: white;
+    margin: 10px;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px; /* Space above images */
+}
+
+.image-item {
+    width: 150px;
+    text-align: center;
+    margin: 20px; /* Increased margin for spacing */
+    padding: 10px;
+    background-color: rgba(255, 204, 255, 0.8); /* Light pink background for image items */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+    transition: transform 0.3s ease;
+}
+
+.image-item:hover {
+    transform: scale(1.05); /* Slight scaling on hover */
+}
+
+.image-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.description {
+    margin: 10px 0; /* Space around the description text */
+    font-size: 1em; /* Slightly smaller font size */
+}

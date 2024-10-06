@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The order of Swan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="image-container">
+        <img src="https://img.freepik.com/premium-vector/swan-logo-gradient-design-template-icon-element_442940-1402.jpg" alt="Description of Image" class="centered-image">
+    </div>
+    
+    
+ 
+        
+    <h1 class="title">The Order Of The Swan</h1>
+    <div class="flowchart">
+        <div class="node start" onclick="navigateTo('page1.html')">Essential Core</div>
+        <div class="node" onclick="navigateTo('page2.html')">Engineering</div>
+        <div class="node" onclick="navigateTo('page3.html')">Business</div>
+        <div class="node" onclick="navigateTo('page4.html')">Science</div>
+        <div class="node" onclick="navigateTo('page5.html')">Art & History</div>
+    </div>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
+
